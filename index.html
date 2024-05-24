@@ -1,26 +1,39 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/terminal-svgrepo-com.svg" />
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/terminal-svgrepo-com.svg" />
+    <!-- Pre-connect to GitHub's API and avatar service -->
+    <link rel="preconnect" href="https://api.github.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://avatars.githubusercontent.com"
+      crossorigin
+    />
 
-  <!-- Pre-connect to GitHub's API and avatar service -->
-  <link rel="preconnect" href="https://api.github.com" crossorigin>
-  <link rel="preconnect" href="https://avatars.githubusercontent.com" crossorigin>
+    <!-- Perform DNS prefetch for sources -->
+    <link rel="dns-prefetch" href="https://avatars.githubusercontent.com" />
+    <link rel="dns-prefetch" href="https://api.github.com" />
 
-  <!-- Perform DNS prefetch for sources -->
-  <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
-  <link rel="dns-prefetch" href="https://api.github.com">
+    <!-- Preconnect to Google Fonts and use the Istok Web Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      href="https://fonts.gstatic.com/s/istokweb/v24/3qTvojGmgSyUukBzKslpBmt_1EEYaA.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
 
-  <meta name="description" content="Amilkar Díaz's Portfolio">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>thekrmichaels - Portfolio</title>
-</head>
+    <meta name="description" content="Amilkar Díaz's Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>thekrmichaels - Portfolio</title>
+  </head>
 
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.tsx"></script>
-</body>
-
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
